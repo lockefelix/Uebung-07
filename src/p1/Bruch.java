@@ -6,7 +6,12 @@ public class Bruch {
     public int n;
 
     public Bruch(int zaehler, int nenner) {
-        this.z = zaehler;
-        this.n = nenner;
+        z = zaehler;
+        n = nenner;
+        System.out.println(toString());
+    }
+
+    public String toString() {
+        return this.z + ":" + this.n;
     }
 }
